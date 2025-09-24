@@ -1,0 +1,54 @@
+{
+  "id": "00000000-0000-0000-0000-000000000002",
+  "name": "Get Information",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get.information",
+      "affectedContexts": [
+        {
+          "name": "information-context",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "00000000-0000-0000-0000-000000000010",
+          "name": "info-type",
+          "required": false,
+          "dataType": "@info-type",
+          "value": "$info-type",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "lang": "el",
+          "speech": [
+            "Εδώ είναι οι πληροφορίες που ζητήσατε για $info-type",
+            "Βρήκα τις εξής πληροφορίες σχετικά με $info-type",
+            "Ορίστε οι πληροφορίες για $info-type που χρειάζεστε"
+          ]
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

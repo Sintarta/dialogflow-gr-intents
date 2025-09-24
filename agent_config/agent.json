@@ -1,0 +1,51 @@
+{
+  "description": "Greek Language Dialogflow Agent Template",
+  "language": "el",
+  "shortDescription": "A template for creating Greek language conversational AI",
+  "examples": "Sample agent configuration for Greek language applications",
+  "linkToDocs": "https://cloud.google.com/dialogflow/docs/",
+  "displayName": "Greek Language Assistant Template",
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "your-project-id",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [
+      "AUDIO_OUTPUT",
+      "SCREEN_OUTPUT",
+      "MEDIA_RESPONSE_AUDIO"
+    ]
+  },
+  "defaultTimezone": "Europe/Athens",
+  "webhook": {
+    "url": "https://your-webhook-url.com/webhook",
+    "username": "",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "available": false,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": ["el", "en"],
+  "enableOnePlatform": true,
+  "onePlatformApiVersion": "v2",
+  "secondaryKey": "your-secondary-key",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false,
+  "baseActionPackagesUrl": ""
+}

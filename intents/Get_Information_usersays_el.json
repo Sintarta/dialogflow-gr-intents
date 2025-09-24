@@ -1,0 +1,97 @@
+[
+  {
+    "id": "00000000-0000-0000-0000-000000000020",
+    "data": [
+      {
+        "text": "Θέλω πληροφορίες για ",
+        "userDefined": false
+      },
+      {
+        "text": "προϊόντα",
+        "alias": "info-type",
+        "meta": "@info-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "el",
+    "updated": 0
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000021",
+    "data": [
+      {
+        "text": "Μπορείς να μου πεις για ",
+        "userDefined": false
+      },
+      {
+        "text": "υπηρεσίες",
+        "alias": "info-type",
+        "meta": "@info-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "el",
+    "updated": 0
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000022",
+    "data": [
+      {
+        "text": "Ψάχνω για πληροφορίες σχετικά με ",
+        "userDefined": false
+      },
+      {
+        "text": "τιμές",
+        "alias": "info-type",
+        "meta": "@info-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "el",
+    "updated": 0
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000023",
+    "data": [
+      {
+        "text": "Τι γνωρίζεις για ",
+        "userDefined": false
+      },
+      {
+        "text": "διαθεσιμότητα",
+        "alias": "info-type",
+        "meta": "@info-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "el",
+    "updated": 0
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000024",
+    "data": [
+      {
+        "text": "Πες μου για ",
+        "userDefined": false
+      },
+      {
+        "text": "ωράριο",
+        "alias": "info-type",
+        "meta": "@info-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "el",
+    "updated": 0
+  }
+]

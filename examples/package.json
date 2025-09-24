@@ -1,0 +1,26 @@
+{
+  "name": "dialogflow-gr-webhook-example",
+  "version": "1.0.0",
+  "description": "Example webhook fulfillment for Greek Dialogflow agent",
+  "main": "webhook_fulfillment.js",
+  "scripts": {
+    "start": "node webhook_fulfillment.js",
+    "dev": "nodemon webhook_fulfillment.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "dialogflow",
+    "webhook",
+    "greek",
+    "chatbot",
+    "nlp"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

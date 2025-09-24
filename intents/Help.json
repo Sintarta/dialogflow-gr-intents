@@ -1,0 +1,34 @@
+{
+  "id": "00000000-0000-0000-0000-000000000004",
+  "name": "Help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.help",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "lang": "el",
+          "speech": [
+            "Μπορώ να σας βοηθήσω με πληροφορίες για προϊόντα, υπηρεσίες, τιμές και ωράρια. Τι θα θέλατε να μάθετε;",
+            "Είμαι εδώ για να σας βοηθήσω! Μπορείτε να με ρωτήσετε για οτιδήποτε σχετικό με τις υπηρεσίες μας.",
+            "Πώς μπορώ να σας εξυπηρετήσω; Ρωτήστε με για πληροφορίες ή οτιδήποτε άλλο χρειάζεστε."
+          ]
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,34 @@
+{
+  "id": "00000000-0000-0000-0000-000000000003",
+  "name": "Goodbye",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.goodbye",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "lang": "el",
+          "speech": [
+            "Αντίο! Καλή συνέχεια!",
+            "Γεια σας! Ήταν χαρά μου που σας βοήθησα!",
+            "Αντίο και καλή σας μέρα!"
+          ]
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "google",
+          "textToSpeech": "Γεια σας! Πώς μπορώ να σας βοηθήσω σήμερα;",
+          "lang": "el",
+          "speech": [
+            "Γεια σας! Πώς μπορώ να σας βοηθήσω σήμερα;",
+            "Καλώς ήρθατε! Σε τι μπορώ να σας εξυπηρετήσω;",
+            "Χαίρομαι που με επισκεφτήκατε! Πώς μπορώ να σας βοηθήσω;"
+          ]
+        },
+        {
+          "type": "0",
+          "lang": "el",
+          "speech": [
+            "Γεια σας! Πώς μπορώ να σας βοηθήσω σήμερα;",
+            "Καλώς ήρθατε! Σε τι μπορώ να σας εξυπηρετήσω;",
+            "Χαίρομαι που με επισκεφτήκατε! Πώς μπορώ να σας βοηθήσω;"
+          ]
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

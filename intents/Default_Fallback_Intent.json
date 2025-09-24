@@ -1,0 +1,45 @@
+{
+  "id": "00000000-0000-0000-0000-000000000001",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "google",
+          "textToSpeech": "Δεν κατάλαβα τι εννοείτε. Μπορείτε να το επαναλάβετε;",
+          "lang": "el",
+          "speech": [
+            "Δεν κατάλαβα τι εννοείτε. Μπορείτε να το επαναλάβετε;",
+            "Συγγνώμη, δεν κατανόησα. Μπορείτε να μου το εξηγήσετε διαφορετικά;",
+            "Λυπάμαι, δεν μπόρεσα να καταλάβω. Παρακαλώ δοκιμάστε ξανά."
+          ]
+        },
+        {
+          "type": "0",
+          "lang": "el",
+          "speech": [
+            "Δεν κατάλαβα τι εννοείτε. Μπορείτε να το επαναλάβετε;",
+            "Συγγνώμη, δεν κατανόησα. Μπορείτε να μου το εξηγήσετε διαφορετικά;",
+            "Λυπάμαι, δεν μπόρεσα να καταλάβω. Παρακαλώ δοκιμάστε ξανά."
+          ]
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
