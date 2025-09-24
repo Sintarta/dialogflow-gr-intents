@@ -1,0 +1,373 @@
+{
+  "name": "τοπικα νεα κατερινης",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "topic",
+          "name": "topic",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "τοπικα νεα κατερινης",
+          "defaultValue": "τοπικα νεα κατερινης",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "title": "",
+          "textToSpeech": "",
+          "lang": "el",
+          "speech": [
+            "Αναζητώ νέα για τοπικα νεα κατερινης...",
+            "Φέρνω τα τελευταία νέα από τοπικα νεα κατερινης...",
+            "Ενημερώνομαι για τοπικα νεα κατερινης..."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "userSays": [
+    {
+      "id": "1",
+      "data": [
+        {
+          "text": "νέα από τοπικα νεα κατερινης",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "2",
+      "data": [
+        {
+          "text": "τι γίνεται στο τοπικα νεα κατερινης",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "3",
+      "data": [
+        {
+          "text": "ενημέρωση για τοπικα νεα κατερινης",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "4",
+      "data": [
+        {
+          "text": "τελευταία νέα τοπικα νεα κατερινης",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "5",
+      "data": [
+        {
+          "text": "τι συμβαίνει στο τοπικα νεα κατερινης",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "6",
+      "data": [
+        {
+          "text": "τοπικα νεα κατερινης νέα",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "7",
+      "data": [
+        {
+          "text": "ειδήσεις από τοπικα νεα κατερινης",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "8",
+      "data": [
+        {
+          "text": "πες μου για τοπικα νεα κατερινης",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "9",
+      "data": [
+        {
+          "text": "θέλω νέα από τοπικα νεα κατερινης",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "10",
+      "data": [
+        {
+          "text": "τα νέα του τοπικα νεα κατερινης",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "11",
+      "data": [
+        {
+          "text": "ενημέρωσέ με για τοπικα νεα κατερινης",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "12",
+      "data": [
+        {
+          "text": "τοπικα νεα κατερινης ειδήσεις",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "13",
+      "data": [
+        {
+          "text": "τι καινούργιο στο τοπικα νεα κατερινης",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "14",
+      "data": [
+        {
+          "text": "νέα για τοπικα νεα κατερινης",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "15",
+      "data": [
+        {
+          "text": "δώσε μου νέα από τοπικα νεα κατερινης",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "16",
+      "data": [
+        {
+          "text": "τοπικά νέα τοπικα νεα κατερινης",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "17",
+      "data": [
+        {
+          "text": "τοπικα νεα κατερινης τι γίνεται",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "18",
+      "data": [
+        {
+          "text": "ενημερώθηκες για τοπικα νεα κατερινης",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "19",
+      "data": [
+        {
+          "text": "αναζητώ ειδήσεις τοπικα νεα κατερινης",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "20",
+      "data": [
+        {
+          "text": "τι νέα στο τοπικα νεα κατερινης",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "21",
+      "data": [
+        {
+          "text": "στείλε μου νέα για τοπικα νεα κατερινης",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "22",
+      "data": [
+        {
+          "text": "τοπικα νεα κατερινης ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "23",
+      "data": [
+        {
+          "text": "βρες μου νέα από τοπικα νεα κατερινης",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "24",
+      "data": [
+        {
+          "text": "νέα και ειδήσεις τοπικα νεα κατερινης",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "25",
+      "data": [
+        {
+          "text": "τι συνέβη στο τοπικα νεα κατερινης",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "name": "πολιτισμός",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "topic",
+          "name": "topic",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "πολιτισμός",
+          "defaultValue": "πολιτισμός",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "title": "",
+          "textToSpeech": "",
+          "lang": "el",
+          "speech": [
+            "Αναζητώ νέα για πολιτισμός...",
+            "Φέρνω τα τελευταία νέα από πολιτισμός...",
+            "Ενημερώνομαι για πολιτισμός..."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "userSays": [
+    {
+      "id": "1",
+      "data": [
+        {
+          "text": "νέα από πολιτισμός",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "2",
+      "data": [
+        {
+          "text": "τι γίνεται στο πολιτισμός",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "3",
+      "data": [
+        {
+          "text": "ενημέρωση για πολιτισμός",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "4",
+      "data": [
+        {
+          "text": "τελευταία νέα πολιτισμός",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "5",
+      "data": [
+        {
+          "text": "τι συμβαίνει στο πολιτισμός",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "6",
+      "data": [
+        {
+          "text": "πολιτισμός νέα",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "7",
+      "data": [
+        {
+          "text": "ειδήσεις από πολιτισμός",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "8",
+      "data": [
+        {
+          "text": "πες μου για πολιτισμός",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "9",
+      "data": [
+        {
+          "text": "θέλω νέα από πολιτισμός",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "10",
+      "data": [
+        {
+          "text": "τα νέα του πολιτισμός",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "11",
+      "data": [
+        {
+          "text": "ενημέρωσέ με για πολιτισμός",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "12",
+      "data": [
+        {
+          "text": "πολιτισμός ειδήσεις",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "13",
+      "data": [
+        {
+          "text": "τι καινούργιο στο πολιτισμός",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "14",
+      "data": [
+        {
+          "text": "νέα για πολιτισμός",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "15",
+      "data": [
+        {
+          "text": "δώσε μου νέα από πολιτισμός",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "16",
+      "data": [
+        {
+          "text": "τοπικά νέα πολιτισμός",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "17",
+      "data": [
+        {
+          "text": "πολιτισμός τι γίνεται",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "18",
+      "data": [
+        {
+          "text": "ενημερώθηκες για πολιτισμός",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "19",
+      "data": [
+        {
+          "text": "αναζητώ ειδήσεις πολιτισμός",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "20",
+      "data": [
+        {
+          "text": "τι νέα στο πολιτισμός",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "21",
+      "data": [
+        {
+          "text": "στείλε μου νέα για πολιτισμός",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "22",
+      "data": [
+        {
+          "text": "πολιτισμός ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "23",
+      "data": [
+        {
+          "text": "βρες μου νέα από πολιτισμός",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "24",
+      "data": [
+        {
+          "text": "νέα και ειδήσεις πολιτισμός",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "25",
+      "data": [
+        {
+          "text": "τι συνέβη στο πολιτισμός",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    }
+  ]
+}

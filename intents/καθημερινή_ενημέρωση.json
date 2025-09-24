@@ -1,0 +1,373 @@
+{
+  "name": "Καθημερινή ενημέρωση",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "topic",
+          "name": "topic",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "Καθημερινή ενημέρωση",
+          "defaultValue": "Καθημερινή ενημέρωση",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "title": "",
+          "textToSpeech": "",
+          "lang": "el",
+          "speech": [
+            "Αναζητώ νέα για Καθημερινή ενημέρωση...",
+            "Φέρνω τα τελευταία νέα από Καθημερινή ενημέρωση...",
+            "Ενημερώνομαι για Καθημερινή ενημέρωση..."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "userSays": [
+    {
+      "id": "1",
+      "data": [
+        {
+          "text": "νέα από Καθημερινή ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "2",
+      "data": [
+        {
+          "text": "τι γίνεται στο Καθημερινή ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "3",
+      "data": [
+        {
+          "text": "ενημέρωση για Καθημερινή ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "4",
+      "data": [
+        {
+          "text": "τελευταία νέα Καθημερινή ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "5",
+      "data": [
+        {
+          "text": "τι συμβαίνει στο Καθημερινή ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "6",
+      "data": [
+        {
+          "text": "Καθημερινή ενημέρωση νέα",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "7",
+      "data": [
+        {
+          "text": "ειδήσεις από Καθημερινή ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "8",
+      "data": [
+        {
+          "text": "πες μου για Καθημερινή ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "9",
+      "data": [
+        {
+          "text": "θέλω νέα από Καθημερινή ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "10",
+      "data": [
+        {
+          "text": "τα νέα του Καθημερινή ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "11",
+      "data": [
+        {
+          "text": "ενημέρωσέ με για Καθημερινή ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "12",
+      "data": [
+        {
+          "text": "Καθημερινή ενημέρωση ειδήσεις",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "13",
+      "data": [
+        {
+          "text": "τι καινούργιο στο Καθημερινή ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "14",
+      "data": [
+        {
+          "text": "νέα για Καθημερινή ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "15",
+      "data": [
+        {
+          "text": "δώσε μου νέα από Καθημερινή ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "16",
+      "data": [
+        {
+          "text": "τοπικά νέα Καθημερινή ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "17",
+      "data": [
+        {
+          "text": "Καθημερινή ενημέρωση τι γίνεται",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "18",
+      "data": [
+        {
+          "text": "ενημερώθηκες για Καθημερινή ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "19",
+      "data": [
+        {
+          "text": "αναζητώ ειδήσεις Καθημερινή ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "20",
+      "data": [
+        {
+          "text": "τι νέα στο Καθημερινή ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "21",
+      "data": [
+        {
+          "text": "στείλε μου νέα για Καθημερινή ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "22",
+      "data": [
+        {
+          "text": "Καθημερινή ενημέρωση ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "23",
+      "data": [
+        {
+          "text": "βρες μου νέα από Καθημερινή ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "24",
+      "data": [
+        {
+          "text": "νέα και ειδήσεις Καθημερινή ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    },
+    {
+      "id": "25",
+      "data": [
+        {
+          "text": "τι συνέβη στο Καθημερινή ενημέρωση",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "el",
+      "updated": 0
+    }
+  ]
+}
